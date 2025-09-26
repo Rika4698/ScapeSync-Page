@@ -1,1 +1,15 @@
 @import "tailwindcss";
+:root {
+  --font-public-sans: 'Public Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-public-sans), sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+ overflow-y: scroll;
+  
+}
